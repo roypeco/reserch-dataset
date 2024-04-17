@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 	"github.com/joho/godotenv"
-	"fmt"
+	// "fmt"
 )
 
 type Pypilib struct {
@@ -100,6 +100,6 @@ func WriteOutJson(outPath string, jsonPtr *[]Combined) error {
 	if err != nil {
 		return err
 	}
-	
+
 	return nil
 }
