@@ -1,0 +1,42 @@
+[
+	{
+		"sourceRank": 1,
+		"pkgName": "pandas",
+		"repository_url": "https://github.com/pandas-dev/pandas",
+		"forks": 17302,
+		"stars": 41880,
+		"latest_release_published_at": "2024-04-10T19:44:10.000Z"
+	},
+	{
+		"sourceRank": 2,
+		"pkgName": "numpy",
+		"repository_url": "https://github.com/numpy/numpy",
+		"forks": 9274,
+		"stars": 26279,
+		"latest_release_published_at": "2024-03-30T16:16:42.000Z"
+	},
+	{
+		"sourceRank": 3,
+		"pkgName": "requests",
+		"repository_url": "https://github.com/psf/requests",
+		"forks": 9189,
+		"stars": 51303,
+		"latest_release_published_at": "2023-07-20T16:16:14.211Z"
+	},
+	{
+		"sourceRank": 4,
+		"pkgName": "Django",
+		"repository_url": "https://github.com/django/django",
+		"forks": 30712,
+		"stars": 76647,
+		"latest_release_published_at": "2024-04-03T14:56:56.000Z"
+	},
+	{
+		"sourceRank": 5,
+		"pkgName": "Flask",
+		"repository_url": "https://github.com/pallets/flask",
+		"forks": 15898,
+		"stars": 66205,
+		"latest_release_published_at": "2024-04-07T19:26:08.000Z"
+	}
+]

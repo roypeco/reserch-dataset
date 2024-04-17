@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"github.com/joho/godotenv"
+	"fmt"
 )
 
 type Pypilib struct {
@@ -89,6 +90,16 @@ func LoadJson(filePath string) []Pypilib {
 	return packages
 }
 
-func WriteOutJson(outPath string, jsonPtr *[]Combined) {
+func WriteOutJson(outPath string, jsonPtr *[]Combined) error {
+	data, err := json.MarshalIndent(jsonPtr, "", "\t")
+	if err != nil {
+		return err
+	}
 
+	err = os.WriteFile(outPath, data, 0644)
+	if err != nil {
+		return err
+	}
+	
+	return nil
 }
