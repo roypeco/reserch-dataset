@@ -10,8 +10,8 @@ func main() {
 	base := "https://libraries.io/api/pypi"
 	var resStrct []packages.Combined
 
-	// jdata := packages.LoadJson("jsons/PkgListSortedbySourcerank.json")
-	jdata := packages.LoadJson("jsons/test.json")
+	jdata := packages.LoadJson("jsons/PkgListSortedbySourcerank.json")
+	// jdata := packages.LoadJson("jsons/test.json")
 
 	for _, name := range jdata {
 		// URLの設定
